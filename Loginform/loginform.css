@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+	
+}
+
+body{
+	font-family: arial. Helvetica, sans-serif;
+	
+	
+}
+
+form{
+	background-color: #5AC8D8;
+	padding: 10px;
+
+
+}
+	
+}
+h1{
+	color: green;
+}
+
+hr{
+	margin:10px 0;
+	height: 10px;
+	background-color: red;
+}
+.input-container{
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	margin-bottom:20px;
+}
+.icon{
+	padding: 10px;
+	background: dodgerblue;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+	
+}
+
+.input-field{
+
+	width: 100%;
+	padding: 10px;
+	outline: none;
+
+}
+
+.input-field:focus
+{
+	border:2px solid dodgerblue;
+}
+
+.btn
+{
+	background-color: dodgerblue;
+	color: white;
+	padding: 15px 20px;
+	border:none;
+	border-radius:10px;
+	cursor: pointer;
+	width: 220px;
+	opacity: 0.8px;
+	margin-right: 30px;
+
+
+}
+
+.btn:hover{
+	opacity: 1;
+	color: tomato;
+	
+
+}
